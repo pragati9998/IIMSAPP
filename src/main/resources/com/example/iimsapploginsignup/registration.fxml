@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="504.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.iimsapploginsignup.RegistrationController">
+   <children>
+      <Pane layoutX="102.0" layoutY="41.0" prefHeight="435.0" prefWidth="435.0" style="-fx-background-color: #9cc7f0;">
+         <children>
+            <Label layoutX="67.0" layoutY="43.0" text="First name">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="67.0" layoutY="76.0" text="Last name">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="70.0" layoutY="108.0" text="username">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="13.0" />
+               </font>
+            </Label>
+            <TextField layoutX="147.0" layoutY="39.0" />
+            <TextField layoutX="147.0" layoutY="71.0" />
+            <TextField layoutX="147.0" layoutY="103.0" />
+            <Label layoutX="71.0" layoutY="146.0" text="password">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="13.0" />
+               </font>
+            </Label>
+            <PasswordField layoutX="147.0" layoutY="142.0" />
+            <Label layoutX="71.0" layoutY="184.0" text="DOB">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="13.0" />
+               </font>
+            </Label>
+            <DatePicker layoutX="147.0" layoutY="180.0" />
+            <Label layoutX="72.0" layoutY="222.0" text="Gender">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="13.0" />
+               </font>
+            </Label>
+            <RadioButton layoutX="147.0" layoutY="222.0" mnemonicParsing="false" text="Male" />
+            <RadioButton layoutX="246.0" layoutY="222.0" mnemonicParsing="false" text="female" />
+            <RadioButton layoutX="333.0" layoutY="222.0" mnemonicParsing="false" text="other" />
+            <Label layoutX="68.0" layoutY="254.0" text="Nationality">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="13.0" />
+               </font>
+            </Label>
+            <TextField layoutX="147.0" layoutY="249.0" />
+            <Label layoutX="65.0" layoutY="3.0" text="Register" underline="true">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="18.0" />
+               </font>
+            </Label>
+            <Button layoutX="76.0" layoutY="298.0" mnemonicParsing="false" text="register">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="13.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
