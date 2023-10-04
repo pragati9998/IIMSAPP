@@ -1,68 +1,87 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
-<?import javafx.scene.text.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="504.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.iimsapploginsignup.RegistrationController">
+
+<HBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="542.0" prefWidth="629.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <Pane layoutX="102.0" layoutY="41.0" prefHeight="435.0" prefWidth="435.0" style="-fx-background-color: #9cc7f0;">
+      <AnchorPane prefHeight="542.0" prefWidth="316.0" style="-fx-background-color: #1e81b0;">
          <children>
-            <Label layoutX="67.0" layoutY="43.0" text="First name">
+            <ImageView fitHeight="264.0" fitWidth="266.0" layoutX="19.0" layoutY="163.0" opacity="0.71" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@4957136_4957136.jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="31.0" layoutY="114.0" text="WELCOME BACK" textFill="#e4e6ed">
                <font>
-                  <Font name="Arial Rounded MT Bold" size="13.0" />
+                  <Font name="Britannic Bold" size="36.0" />
                </font>
             </Label>
-            <Label layoutX="67.0" layoutY="76.0" text="Last name">
+         </children>
+      </AnchorPane>
+      <AnchorPane prefHeight="542.0" prefWidth="336.0" style="-fx-background-color: lightblue;">
+         <children>
+            <Label layoutX="50.0" layoutY="135.0" text="First Name">
                <font>
-                  <Font name="Arial Rounded MT Bold" size="13.0" />
+                  <Font name="Arial Rounded MT Bold" size="14.0" />
                </font>
             </Label>
-            <Label layoutX="70.0" layoutY="108.0" text="username">
+            <Label layoutX="55.0" layoutY="172.0" text="Last Name">
                <font>
-                  <Font name="Arial Rounded MT Bold" size="13.0" />
+                  <Font name="Arial Rounded MT Bold" size="14.0" />
                </font>
             </Label>
-            <TextField layoutX="147.0" layoutY="39.0" />
-            <TextField layoutX="147.0" layoutY="71.0" />
-            <TextField layoutX="147.0" layoutY="103.0" />
-            <Label layoutX="71.0" layoutY="146.0" text="password">
+            <TextField layoutX="136.0" layoutY="131.0" />
+            <TextField layoutX="136.0" layoutY="168.0" />
+            <Label layoutX="52.0" layoutY="210.0" text="Username">
                <font>
-                  <Font name="Arial Rounded MT Bold" size="13.0" />
+                  <Font name="Arial Rounded MT Bold" size="14.0" />
                </font>
             </Label>
-            <PasswordField layoutX="147.0" layoutY="142.0" />
-            <Label layoutX="71.0" layoutY="184.0" text="DOB">
+            <Label layoutX="55.0" layoutY="246.0" text="Password">
                <font>
-                  <Font name="Arial Rounded MT Bold" size="13.0" />
+                  <Font name="Arial Rounded MT Bold" size="14.0" />
                </font>
             </Label>
-            <DatePicker layoutX="147.0" layoutY="180.0" />
-            <Label layoutX="72.0" layoutY="222.0" text="Gender">
+            <TextField layoutX="136.0" layoutY="206.0" />
+            <PasswordField layoutX="136.0" layoutY="242.0" />
+            <Label layoutX="55.0" layoutY="283.0" text="DOB">
                <font>
-                  <Font name="Arial Rounded MT Bold" size="13.0" />
+                  <Font name="Arial Rounded MT Bold" size="14.0" />
                </font>
             </Label>
-            <RadioButton layoutX="147.0" layoutY="222.0" mnemonicParsing="false" text="Male" />
-            <RadioButton layoutX="246.0" layoutY="222.0" mnemonicParsing="false" text="female" />
-            <RadioButton layoutX="333.0" layoutY="222.0" mnemonicParsing="false" text="other" />
-            <Label layoutX="68.0" layoutY="254.0" text="Nationality">
+            <DatePicker layoutX="137.0" layoutY="279.0" />
+            <Label layoutX="54.0" layoutY="314.0" text="Gender">
                <font>
-                  <Font name="Arial Rounded MT Bold" size="13.0" />
+                  <Font name="Arial Rounded MT Bold" size="14.0" />
                </font>
             </Label>
-            <TextField layoutX="147.0" layoutY="249.0" />
-            <Label layoutX="65.0" layoutY="3.0" text="Register" underline="true">
+            <RadioButton layoutX="139.0" layoutY="314.0" mnemonicParsing="false" text="Male" />
+            <RadioButton layoutX="194.0" layoutY="314.0" mnemonicParsing="false" text="Female" />
+            <RadioButton layoutX="259.0" layoutY="314.0" mnemonicParsing="false" text="Other" />
+            <Button layoutX="65.0" layoutY="383.0" mnemonicParsing="false" style="-fx-background-color: #0f38db;" text="Signup" textFill="#f5f5f7" />
+            <Label layoutX="50.0" layoutY="88.0" text="Register">
                <font>
                   <Font name="Arial Rounded MT Bold" size="18.0" />
                </font>
             </Label>
-            <Button layoutX="76.0" layoutY="298.0" mnemonicParsing="false" text="register">
+            <Label layoutX="55.0" layoutY="342.0" text="Nationality">
                <font>
-                  <Font name="Arial Rounded MT Bold" size="13.0" />
+                  <Font name="Arial Rounded MT Bold" size="14.0" />
                </font>
-            </Button>
+            </Label>
+            <TextField layoutX="136.0" layoutY="338.0" />
          </children>
-      </Pane>
+      </AnchorPane>
    </children>
-</AnchorPane>
+</HBox>

@@ -10,9 +10,9 @@
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.text.Font?>
 
-<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="475.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.iimsapploginsignup.LoginController">
+<HBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="540.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.iimsapploginsignup.LoginController">
    <children>
-      <AnchorPane prefHeight="475.0" prefWidth="325.0" style="-fx-background-color: #50ded9;">
+      <AnchorPane prefHeight="300.0" prefWidth="420.0" style="-fx-background-color: #50ded9;">
          <children>
             <ImageView fitHeight="265.0" fitWidth="295.0" layoutX="17.0" layoutY="47.0" pickOnBounds="true" preserveRatio="true">
                <image>
@@ -21,36 +21,36 @@
             </ImageView>
          </children>
       </AnchorPane>
-      <AnchorPane prefHeight="475.0" prefWidth="377.0">
+      <AnchorPane prefHeight="300.0" prefWidth="500.0" style="-fx-background-color: #1e81b0;">
          <children>
-            <Label layoutX="62.0" layoutY="192.0" text="username">
+            <Label layoutX="62.0" layoutY="192.0" text="Username" textFill="#f4f2f5">
                <font>
-                  <Font name="Arial Rounded MT Bold" size="18.0" />
+                  <Font name="Arial Rounded MT Bold" size="24.0" />
                </font>
             </Label>
-            <Label layoutX="62.0" layoutY="240.0" text="password">
+            <Label layoutX="62.0" layoutY="240.0" text="Password" textFill="#f4f2f5">
                <font>
-                  <Font name="Arial Rounded MT Bold" size="18.0" />
+                  <Font name="Arial Rounded MT Bold" size="24.0" />
                </font>
             </Label>
-            <TextField layoutX="163.0" layoutY="190.0" />
-            <PasswordField layoutX="163.0" layoutY="238.0" />
-            <Button layoutX="169.0" layoutY="286.0" mnemonicParsing="false" text="login">
+            <TextField layoutX="192.0" layoutY="194.0" />
+            <PasswordField layoutX="192.0" layoutY="242.0" />
+            <Button layoutX="183.0" layoutY="286.0" mnemonicParsing="false" style="-fx-background-color: #1366eb;" text="login" textFill="#e9ebf0">
                <font>
-                  <Font name="Arial Rounded MT Bold" size="14.0" />
+                  <Font name="Arial Rounded MT Bold" size="18.0" />
                </font>
             </Button>
-            <Button layoutX="248.0" layoutY="286.0" mnemonicParsing="false" text="signup" onAction="#NavigatetoRegistration">
-               <font>
-                  <Font name="Arial Rounded MT Bold" size="14.0" />
-               </font>
-            </Button>
-            <Label layoutX="167.0" layoutY="153.0" text="login">
+            <Button layoutX="258.0" layoutY="286.0" mnemonicParsing="false" onAction="#NavigatetoRegistration" style="-fx-background-color: #1366eb;" text="signup" textFill="#e9ebf0">
                <font>
                   <Font name="Arial Rounded MT Bold" size="18.0" />
                </font>
+            </Button>
+            <Label layoutX="192.0" layoutY="144.0" text="Login" textFill="#f4f2f5">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="24.0" />
+               </font>
             </Label>
-            <ImageView fitHeight="37.0" fitWidth="52.0" layoutX="170.0" layoutY="99.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fitHeight="73.0" fitWidth="67.0" layoutX="191.0" layoutY="65.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@key.jpeg" />
                </image>
