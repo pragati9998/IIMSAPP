@@ -12,7 +12,6 @@
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.text.Font?>
 
-
 <HBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="542.0" prefWidth="629.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1">
    <children>
       <AnchorPane prefHeight="542.0" prefWidth="316.0" style="-fx-background-color: #1e81b0;">
@@ -69,7 +68,10 @@
             <RadioButton layoutX="139.0" layoutY="314.0" mnemonicParsing="false" text="Male" />
             <RadioButton layoutX="194.0" layoutY="314.0" mnemonicParsing="false" text="Female" />
             <RadioButton layoutX="259.0" layoutY="314.0" mnemonicParsing="false" text="Other" />
-            <Button layoutX="65.0" layoutY="383.0" mnemonicParsing="false" style="-fx-background-color: #0f38db;" text="Signup" textFill="#f5f5f7" />
+            <Button layoutX="65.0" layoutY="383.0" mnemonicParsing="false" style="-fx-background-color: #0f38db; -fx-border-color: white;" text="Signup" textFill="#f5f5f7">
+               <font>
+                  <Font size="14.0" />
+               </font></Button>
             <Label layoutX="50.0" layoutY="88.0" text="Register">
                <font>
                   <Font name="Arial Rounded MT Bold" size="18.0" />
